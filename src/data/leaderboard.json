@@ -2,7 +2,7 @@
   "models": [
     {
       "name": "GPT-4o",
-      "huggingface": "https://openai.com/gpt-4o",
+      "huggingface": "https://platform.openai.com/docs/models/gpt-4o",
       "size": "Closed",
       "tasks": {
         "qna": 94.00,
@@ -13,7 +13,7 @@
     },
     {
       "name": "GPT-4.5-preview",
-      "huggingface": "https://openai.com/gpt-4-5-preview",
+      "huggingface": "https://platform.openai.com/docs/models/gpt-4.5-preview",
       "size": "Closed",
       "tasks": {
         "qna": 90.67,
@@ -24,7 +24,7 @@
     },
     {
       "name": "GPT-4o-mini",
-      "huggingface": "https://openai.com/gpt-4o-mini",
+      "huggingface": "https://platform.openai.com/docs/models/gpt-4o-mini",
       "size": "Closed",
       "tasks": {
         "qna": 95.33,
@@ -35,7 +35,7 @@
     },
     {
       "name": "Gemini-2-Flash",
-      "huggingface": "https://ai.google.dev/gemini",
+      "huggingface": "https://ai.google.dev/gemini-api/docs/models",
       "size": "Closed",
       "tasks": {
         "qna": 94.00,
@@ -46,7 +46,7 @@
     },
     {
       "name": "Gemini-1.5-Pro",
-      "huggingface": "https://ai.google.dev/gemini",
+      "huggingface": "https://ai.google.dev/gemini-api/docs/models",
       "size": "Closed",
       "tasks": {
         "qna": 93.33,
@@ -57,7 +57,7 @@
     },
     {
       "name": "Gemini-1.5-Flash",
-      "huggingface": "https://ai.google.dev/gemini",
+      "huggingface": "https://ai.google.dev/gemini-api/docs/models",
       "size": "Closed",
       "tasks": {
         "qna": 92.00,

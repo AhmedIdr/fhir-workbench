@@ -14,25 +14,25 @@ export default function TasksGrid() {
       id: 'qna' as Task,
       title: "FHIR Q&A",
       subtitle: "(Q&A)",
-      description: "Ability to answer questions about FHIR resources and specifications"
+      description: "Ability to answer questions about FHIR general knowledge"
     },
     {
       id: 'api_qna' as Task,
       title: "FHIR API Usage",
       subtitle: "(API)",
-      description: "Understanding and generating FHIR API queries and responses"
+      description: "Ability to answer questions about FHIR API specifications"
     },
     {
       id: 'identification' as Task,
       title: "Resource Identification",
       subtitle: "(ID)",
-      description: "Accuracy in identifying FHIR resource types and elements"
+      description: "Ability to identify FHIR resource types and elements"
     },
     {
       id: 'generation' as Task,
       title: "Resource Generation",
       subtitle: "(Gen)",
-      description: "Capability to generate valid FHIR resources and profiles"
+      description: "Ability to generate valid FHIR resources and profiles"
     }
   ];
 

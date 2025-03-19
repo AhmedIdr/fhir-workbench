@@ -15,8 +15,8 @@ export const taskFullNames: Record<Task, string> = {
 };
 
 export const taskDescriptions: Record<Task, string> = {
-  qna: 'Ability to answer questions about FHIR resources and specifications',
-  api_qna: 'Understanding and generating FHIR API queries and responses',
-  identification: 'Accuracy in identifying FHIR resource types and elements',
-  generation: 'Capability to generate valid FHIR resources from clinical notes'
+  qna: 'Ability to answer questions about FHIR general knowledge',
+  api_qna: 'Ability to answer questions about FHIR API specification and usage',
+  identification: 'Ability to identify FHIR resource types from a given FHIR resource',
+  generation: 'Ability to generate valid FHIR resources from clinical notes'
 };

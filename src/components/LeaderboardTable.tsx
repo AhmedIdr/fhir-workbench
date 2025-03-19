@@ -58,7 +58,7 @@ export default function LeaderboardTable() {
 
   const getScoreBar = (score: number | null) => {
     if (score === null) {
-      return <span className="text-gray-500">-*</span>;
+      return <span className="text-gray-500">N/A</span>;
     }
     
     return (
@@ -88,10 +88,10 @@ export default function LeaderboardTable() {
           Showing <span className="font-medium text-white">{models.length}</span> of <span className="font-medium text-white">{totalCount}</span> models
         </div>
         <div className="flex items-center gap-2">
-          <button className="text-sm text-gray-400 flex items-center gap-1 hover:text-[#f2acac]">
+          {/* <button className="text-sm text-gray-400 flex items-center gap-1 hover:text-[#f2acac]">
             <Info className="h-4 w-4" />
             <span>Table options</span>
-          </button>
+          </button> */}
         </div>
       </div>
       
