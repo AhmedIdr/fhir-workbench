@@ -10,11 +10,10 @@ export default function LeaderboardTable() {
   const { sortConfig, setSortConfig, getFilteredAndSortedModels, getTotalModelCount } = useLeaderboardStore();
   const [activeTooltip, setActiveTooltip] = React.useState<Task | null>(null);
   
-  // Set initial sort on component mount
+  // Set initial sort on component mount - ensure sorting by average in descending order
   React.useEffect(() => {
-    if (!sortConfig.key) {
-      setSortConfig(null);  // null key represents the average column
-    }
+    // Only run once on component mount to ensure we always start with average column sorted in descending order
+    setSortConfig(null);  // null key represents the average column, will be set to descending direction
   }, []);
 
   const models = getFilteredAndSortedModels();

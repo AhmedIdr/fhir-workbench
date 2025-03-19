@@ -48,7 +48,8 @@ export const useLeaderboardStore = create<LeaderboardStore>((set, get) => ({
   setSortConfig: (key) => set((state) => ({
     sortConfig: {
       key,
-      direction: state.sortConfig.key === key && state.sortConfig.direction === 'desc' ? 'asc' : 'desc'
+      direction: key === null ? 'desc' : 
+                (state.sortConfig.key === key && state.sortConfig.direction === 'desc') ? 'asc' : 'desc'
     }
   })),
   setSearchQuery: (query) => set({ searchQuery: query }),
