@@ -49,8 +49,8 @@ export default function Home() {
       
       <footer className="w-full max-w-[2000px] mx-auto px-6 lg:px-10 mt-16 py-6 text-center text-gray-400 text-sm">
         <p>
-          FHIR Leaderboard evaluates language models on FHIR-specific tasks. 
-          © 2023-2024 FHIR Leaderboard Team
+          FHIR Workbench evaluates large language models on FHIR-specific tasks. 
+          © 2025 <a href="https://ship-ai.ikim.nrw/" target="_blank" rel="noopener noreferrer" className="text-[#f2acac] hover:underline">SHIP AI Team</a>
         </p>
       </footer>
     </main>
