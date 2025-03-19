@@ -1,0 +1,180 @@
+{
+  "models": [
+    {
+      "name": "GPT-4o",
+      "huggingface": "https://openai.com/gpt-4o",
+      "size": "Closed",
+      "tasks": {
+        "qna": 94.00,
+        "api_qna": 92.67,
+        "identification": 99.90,
+        "generation": 34.74
+      }
+    },
+    {
+      "name": "GPT-4.5-preview",
+      "huggingface": "https://openai.com/gpt-4-5-preview",
+      "size": "Closed",
+      "tasks": {
+        "qna": 90.67,
+        "api_qna": 92.00,
+        "identification": null,
+        "generation": 36.33
+      }
+    },
+    {
+      "name": "GPT-4o-mini",
+      "huggingface": "https://openai.com/gpt-4o-mini",
+      "size": "Closed",
+      "tasks": {
+        "qna": 95.33,
+        "api_qna": 94.00,
+        "identification": 92.08,
+        "generation": 16.34
+      }
+    },
+    {
+      "name": "Gemini-2-Flash",
+      "huggingface": "https://ai.google.dev/gemini",
+      "size": "Closed",
+      "tasks": {
+        "qna": 94.00,
+        "api_qna": 90.00,
+        "identification": 96.90,
+        "generation": 34.00
+      }
+    },
+    {
+      "name": "Gemini-1.5-Pro",
+      "huggingface": "https://ai.google.dev/gemini",
+      "size": "Closed",
+      "tasks": {
+        "qna": 93.33,
+        "api_qna": 91.33,
+        "identification": 93.70,
+        "generation": 34.31
+      }
+    },
+    {
+      "name": "Gemini-1.5-Flash",
+      "huggingface": "https://ai.google.dev/gemini",
+      "size": "Closed",
+      "tasks": {
+        "qna": 92.00,
+        "api_qna": 90.67,
+        "identification": 92.00,
+        "generation": 24.15
+      }
+    },
+    {
+      "name": "Qwen/Qwen2.5-Coder-32B-Instruct",
+      "huggingface": "https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct",
+      "size": "32",
+      "tasks": {
+        "qna": 90.00,
+        "api_qna": 91.33,
+        "identification": 88.80,
+        "generation": 33.54
+      }
+    },
+    {
+      "name": "mistralai/Mistral-Small-24B-Instruct-2501",
+      "huggingface": "https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501",
+      "size": "24",
+      "tasks": {
+        "qna": 88.66,
+        "api_qna": 92.00,
+        "identification": 88.60,
+        "generation": 34.01
+      }
+    },
+    {
+      "name": "microsoft/phi-4",
+      "huggingface": "https://huggingface.co/microsoft/phi-4",
+      "size": "14",
+      "tasks": {
+        "qna": 88.66,
+        "api_qna": 89.33,
+        "identification": 82.90,
+        "generation": 28.99
+      }
+    },
+    {
+      "name": "google/gemma-2-9b-it",
+      "huggingface": "https://huggingface.co/google/gemma-2-9b-it",
+      "size": "9",
+      "tasks": {
+        "qna": 57.33,
+        "api_qna": 82.00,
+        "identification": 95.20,
+        "generation": 6.29
+      }
+    },
+    {
+      "name": "meta-llama/Llama-3.1-8B-Instruct",
+      "huggingface": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+      "size": "8",
+      "tasks": {
+        "qna": 85.33,
+        "api_qna": 88.00,
+        "identification": 82.00,
+        "generation": 20.78
+      }
+    },
+    {
+      "name": "allenai/Llama-3.1-Tulu-3-8B",
+      "huggingface": "https://huggingface.co/allenai/Llama-3.1-Tulu-3-8B",
+      "size": "8",
+      "tasks": {
+        "qna": 83.33,
+        "api_qna": 85.33,
+        "identification": 73.20,
+        "generation": 20.29
+      }
+    },
+    {
+      "name": "Qwen/Qwen2.5-Coder-7B-Instruct",
+      "huggingface": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct",
+      "size": "7",
+      "tasks": {
+        "qna": 95.33,
+        "api_qna": 87.33,
+        "identification": 89.20,
+        "generation": 21.21
+      }
+    },
+    {
+      "name": "BioMistral/BioMistral-7B-DARE",
+      "huggingface": "https://huggingface.co/BioMistral/BioMistral-7B-DARE",
+      "size": "7",
+      "tasks": {
+        "qna": 85.33,
+        "api_qna": 84.00,
+        "identification": 58.10,
+        "generation": 7.64
+      }
+    },
+    {
+      "name": "allenai/OLMo-2-1124-7B-Instruct",
+      "huggingface": "https://huggingface.co/allenai/OLMo-2-1124-7B-Instruct",
+      "size": "7",
+      "tasks": {
+        "qna": 82.00,
+        "api_qna": 74.00,
+        "identification": 61.10,
+        "generation": 3.82
+      }
+    },
+    {
+      "name": "Deepseek-v3",
+      "huggingface": "https://huggingface.co/deepseek-ai/deepseek-v3",
+      "size": "671",
+      "tasks": {
+        "qna": 94.00,
+        "api_qna": 94.00,
+        "identification": 91.42,
+        "generation": 32.23
+      }
+    }
+  ]
+}

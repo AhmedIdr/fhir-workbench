@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased text-primary-darker bg-accent-lighter;
+  }
+}
+
+@layer components {
+  .table-header {
+    @apply px-6 py-3 text-left text-xs font-medium text-secondary uppercase tracking-wider;
+  }
+  
+  .card {
+    @apply bg-white rounded-lg shadow-sm p-4 border border-primary-darker/10;
+  }
+  
+  .btn-primary {
+    @apply bg-primary-darker hover:bg-primary-dark text-white px-4 py-2 rounded-lg transition-colors;
+  }
+  
+  .btn-accent {
+    @apply bg-accent hover:bg-accent-light text-white px-4 py-2 rounded-lg transition-colors;
+  }
+}

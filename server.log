@@ -1,0 +1,58 @@
+
+> fhir-workbench@0.1.0 dev
+> next dev
+
+  ▲ Next.js 14.2.18
+  - Local:        http://localhost:3000
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 1573ms
+ ○ Compiling /api/submit-model ...
+ ✓ Compiled /api/submit-model in 516ms (104 modules)
+Using simulated email transport for development
+Request body: { huggingFaceRepo: 'https://huggingface.co/test-repo/model' }
+SIMULATED EMAIL SENT:
+---------------------
+From: fhir.workbench@gmail.com
+To: ai.yaghir@gmail.com
+Subject: FHIR Leaderboard Model Submission
+Body: New model submission:
+
+HuggingFace Repository: https://huggingface.co/test-repo/model
+
+Submitted at: 2025-03-19T11:15:56.079Z
+---------------------
+Email operation result: Simulated email sent successfully
+ POST /fhir-workbench/api/submit-model 200 in 759ms
+ ⚠ Found a change in next.config.mjs. Restarting the server to apply the changes...
+  ▲ Next.js 14.2.18
+  - Local:        http://localhost:3000
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 1251ms
+ ⚠ Found a change in next.config.mjs. Restarting the server to apply the changes...
+  ▲ Next.js 14.2.18
+  - Local:        http://localhost:3000
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 1178ms
+ ⚠ Found a change in next.config.mjs. Restarting the server to apply the changes...
+ ⚠ Port 3000 is in use, trying 3001 instead.
+  ▲ Next.js 14.2.18
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 1509ms
+(node:72426) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+ ○ Compiling / ...
+(node:72426) ExperimentalWarning: CommonJS module /Users/ahmedidrissi/Documents/github/fhir-leaderboard/project/node_modules/tailwindcss/lib/lib/load-config.js is loading ES Module /Users/ahmedidrissi/Documents/github/fhir-leaderboard/project/tailwind.config.js using require().
+Support for loading ES Module in require() is an experimental feature and might change at any time
+ ✓ Compiled / in 2.3s (528 modules)
+ GET / 200 in 2597ms
+ ✓ Compiled in 452ms (265 modules)
+[?25h
