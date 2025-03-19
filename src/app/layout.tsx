@@ -5,8 +5,16 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'FHIR LLM Leaderboard',
+  title: 'FHIR Workbench',
   description: 'Compare LLMs FHIR capabilities on various tasks',
+  icons: {
+    icon: [
+      { url: '/fhir-workbench/favicon.svg', type: 'image/svg+xml' },
+    ],
+    apple: [
+      { url: '/fhir-workbench/favicon.svg' }
+    ]
+  },
 };
 
 export default function RootLayout({
