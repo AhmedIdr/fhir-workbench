@@ -2,7 +2,7 @@ import LeaderboardTable from '@/components/LeaderboardTable';
 import ModelSizeFilter from '@/components/ModelSizeFilter';
 import SearchBar from '@/components/SearchBar';
 import ModelSubmissionForm from '@/components/ModelSubmissionForm';
-import { Flame, FileText, Database } from 'lucide-react';
+import { Flame, FileText, Database, Github } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -35,6 +35,15 @@ export default function Home() {
             >
               <Database className="h-5 w-5" />
               <span>Datasets</span>
+            </a>
+            <a 
+              href="https://github.com/UMEssen/FHIR-Workbench" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-white bg-[#222732] hover:bg-[#2d3748] px-6 py-3 rounded-md transition-colors"
+            >
+              <Github className="h-5 w-5" />
+              <span>GitHub</span>
             </a>
           </div>
         </div>
