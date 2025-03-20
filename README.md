@@ -59,17 +59,11 @@ The output in the `out` directory can be deployed to any static hosting service,
 
 ## How the Submission Process Works
 
-1. A user visits your leaderboard and enters their HuggingFace model URL
+1. A user visits the leaderboard and enters their HuggingFace model URL
 2. When they click "Submit", the form uses the `mailto:` protocol to:
    - Open their default email client (Gmail, Outlook, Apple Mail, etc.)
    - Pre-fill the recipient with your email address
    - Pre-fill the subject with the model name
    - Pre-fill the body with the model URL and submission details
 3. The user reviews the email and clicks send
-4. You receive the submission directly in your inbox
 
-This approach is:
-- **100% Static**: Works with any static hosting, no server needed
-- **No Third Parties**: Doesn't rely on external services like Formspree
-- **Simple Setup**: Just set your email address once
-- **Privacy-Focused**: No tracking or data collection 
